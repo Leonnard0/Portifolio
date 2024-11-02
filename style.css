@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height: 100vh;
+    background-color: rgb(10 25 47);
+   
+}
+.nav{
+    display: flex;
+    width: 90%;
+    justify-content: end;
+}
+.pages{ 
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#nome{
+    color: white;
+    padding-left: 10px;
+}
+
+#textos{
+  margin-top: 2%;
+    text-align: center;
+}
+.decoration{
+    color: white;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+     margin: auto;
+     border-radius: 30px;
+     align-items: center;
+     justify-items: center;
+     margin-bottom: 100px;
+     
+     
+}
+.co{
+    width: 100%;
+}
+.filhos{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    background-color:#D7D7D7 ;
+    box-shadow: 5px 6px #888888;
+    border-radius: 30px;
+    text-align: center;
+    
+  
+    
+
+}
+.filhos a{
+   color: rgb(97, 97, 97);
+   margin: auto;
+  align-items: center;
+}
+.filhos:hover{
+    width: 220px;
+    background-color: rgb(73, 70, 70);
+}
+
+
+.linha{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+#textos>h2{
+    margin-bottom: 10px;
+}
+header{
+    height: 20px;
+}
+#rodape{
+    background-color: #4A4949;
+    height: 30px; /**/
+    width: 100%;
+    
+    
+
+}
+#li{
+    list-style: none;
+}
+#svg{
+    width: 40px;
+    margin-top: 5px;
+    
+    
+
+}
+ul{display: flex;
+
+gap: 100px;
+justify-content: center;
+}
+/* pag 2 a baixo*/
+#segunda{
+display: grid;
+grid-template-columns: 2fr 1fr;
+column-gap: 10%;
+  height: 900px;
+  
+}
+#titulo{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 2px;
+    color: rgb(30, 252, 252);
+}
+
+#texto{
+    text-align:left;
+    font-family: "Inter", sans-serif; 
+    font-size: 26px;
+    color: rgb(247, 245, 245);
+    font-weight: 500;
+    
+}
+#foto12{
+    height: 500px;
+    width: 400px;
+    border-radius: 30px;
+    object-fit: cover;
+    margin-top: 200px;
+   
+
+   
+}
+
+#foto{
+    background-size: contain;
+    background-position: center;
+    align-items: center;
+}
+#segunda-grid{
+    grid-row: 1/3;
+    grid-column: 2;
+    justify-content: right;
+} 
+ /*PAGINA 3 A BAIXO*/
+#terceira{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows:3, 4fr;
+    transition: 0.5;
+    grid-template-areas:
+     " titulo foto "
+     "paragrafo foto"
+     "paragrafo foto"
+     
+
+    ;
+    
+}
+#titlet{
+     
+    grid-area: titulo;
+    height: 200px;
+}
+#h11{
+    text-align: center;
+    vertical-align: bottom;
+    color: rgb(30, 252, 252);
+  
+}
+#texto>span{
+    color: rgb(93 104 131);
+}
+#color{
+    color: rgb(30, 252, 252);
+}
+
+#lista{
+    list-style: none;
+display: flex;
+flex-direction: column;
+text-align: left;
+color: rgb(93 104 131);
+font-size: 20px;
+
+}
+
+#paragrafo{
+
+    font-size: 26px;
+    font-weight: 500;
+    grid-area: paragrafo;
+    
+    
+}
+#paragrafo>span{
+    text-align: left;
+    color: rgb(93 104 131);
+    font-size: 20px;
+}
+
+.foto3{
+    grid-area: foto;
+   display: grid;
+   grid-template-columns: 1fr;
+   align-items: center;
+justify-items: center;
+   
+}
+
+.imagens{
+    width: 10%;
+
+}
+
+/* pagina contato*/
+.paginacontato{
+   height: 100vh;
+    display: grid;
+    
+
+   
+    
+                          
+
+}
+
+.localizacao01{
+    color: white;
+    
+    
+    text-align: center;
+
+    
+}
+#contato{
+    padding-top: 20px;
+    
+}
+
+.localizacao-pai{
+    
+  display: flex;
+  height: 600px;
+   
+}
+ 
+.localizacao03{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+}
+.localizacao03>h2, span{
+   color: white;
+  
+   
+}
+.localizacao03>h2{
+    color: rgb(30, 252, 252);
+}
+.localizacao03> h2{
+font-size: 100px;
+
+}
+#contato{
+    
+    color: rgb(30, 252, 252);
+}
+
+.localizacao-pai-direito{
+    
+    width: 50% ;
+    
+    height: 600px;
+}
+.localizacao-pai-direito div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    padding-left: 10px;
+    
+}
+
+#imgscor{
+    background-color: white;
+    padding: 17px;
+    border-radius: 30px;
+    width: 70px;
+    height: 70px;
+}
+
+footer{
+    text-align: center;
+    height: 50px;
+}
+
+footer p{
+ color: white;
+ font-size: 20px;
+}
